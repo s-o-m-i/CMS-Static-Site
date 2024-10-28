@@ -5,6 +5,8 @@ import HelpSection from "@/components/HelpSection";
 import LandingPage from "@/components/LandingPage";
 import PricingSection from "@/components/PricingSection";
 import ContactUs from "@/components/ContactUs";
+import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
@@ -19,7 +21,9 @@ export default function Home() {
       <FreeTrial />
       <HelpSection />
       <PricingSection />
-      <ContactUs/>
+      <ContactUs />
+      <Testimonials />
+      <Footer />
     </>
   );
 }
